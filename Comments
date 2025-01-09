@@ -1,0 +1,8 @@
+
+#this is a comment
+#comments start with a hasah symbol
+#comments are shown in a particular color
+#comments are ignored by phython when executing code
+#comments are used to discribe code
+#either line by line or a section of code
+#comments make code more maintainable
