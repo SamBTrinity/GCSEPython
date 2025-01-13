@@ -1,0 +1,29 @@
+#data types
+#cribs
+charectar = 'N'
+real_float = 1.7
+integar = 65
+bolean = False
+string = 'i like tomatoes'
+#it is posible to do maths with floats and integars
+#it is not poossible to do maths with strings, charactors or boleans
+# e.g.
+num1 = 12 #int
+num2 = 32 #int
+ttl = num1 + num2
+print(ttl)
+
+
+num1 = 1.2 #float
+num2 = 3.2 #float
+ttl = num1 + num2
+print(ttl)
+
+num1 = '12' #string
+num2 = '32' #sting
+ttl = num1 + num2
+print(ttl)
+
+#you cant add stings or chatracters
+#instead the add symbol glues both strings/charectars together
+#this is called concatenation
