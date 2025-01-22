@@ -1,0 +1,10 @@
+number1 = int(input('give me a number'))
+number2 = int(input('give me another number'))
+
+if number1 < number2:
+    print(number2,number1)
+elif number1 > number2:
+    print(number1,number2)
+else:
+    print('your numbers are equal')
+
