@@ -1,0 +1,9 @@
+number1 = int(input('give me a number bellow 20'))
+
+if number1 < 20:
+    print('thank you')
+elif number1 > 20:
+    print('too high')
+else:
+    print('your number is 20')
+
