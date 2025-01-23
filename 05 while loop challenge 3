@@ -1,0 +1,15 @@
+num = 0
+looping = True
+letter = 'y'
+total = 0
+while letter == 'y':
+    number = int(input('please enter another number'))
+    total = number + total
+    letter = input('do you want to add another number')
+    if letter == 'y':
+        print(total)
+    else:
+        looping = False
+print('this is your final number =',total)
+    
+        
