@@ -1,0 +1,9 @@
+looping = True
+count = 0
+letter = 'y'
+while letter != 'n':
+    name = input('enter the name of somone you want to invuite to your party')
+    print(name,'has now been invited')
+    count = count + 1
+    letter = input('do you wish to add any more y/n?')
+print(count)
