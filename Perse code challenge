@@ -1,0 +1,25 @@
+print('these are the movie ratings')
+ratings = '2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0'
+shoppinglist = ratings.split(', ')
+print(shoppinglist)
+print('Do you want to add or remove any ratings or quit (type add or remove)')
+flag = True
+while flag:
+    answer = input()
+    if answer == 'add':
+        print('What movie rating do you want to add?')
+        add2 = input()
+        shoppinglist.append(add2)
+        print('Your ratings are', shoppinglist)
+        print('Do you want to add or remove any ratings or quit (type add or remove or quit)')
+    elif answer == 'remove':
+        print('What movie rating do you want to remove?')
+        remove2 = input()
+        shoppinglist.remove(remove2)
+        print('Your ratings are', shoppinglist)
+        print('Do you want to add or remove any ratings or quit (type add or remove or quit)')
+    elif answer == 'quit':
+        flag = False
+        print('Your ratings are', shoppinglist)
+    else:
+        print('Please type add or remove or quit')
