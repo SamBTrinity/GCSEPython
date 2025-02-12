@@ -1,0 +1,153 @@
+import time as t
+
+lives=3
+print('Once apon a time...')
+
+t.sleep(3)
+        
+print('The war had been raging on for years and there was no end in sight. ')
+
+t.sleep(5)
+
+print('Only you can save this acursed world for being destroyed for good.')
+
+t.sleep(5)
+name=input('What is your name brave fighter? ')
+
+Answer=input('Are you ready '+name)
+
+if Answer == 'yes':
+   print('Wow you really are brave, lets go!')
+
+elif Answer == 'no':
+  print('Thats fine was all can be somtimes, lets go now and meet the others.')
+  
+
+else:
+  print('Ok then?')
+t.sleep(3)
+print('Max: Hello I am the general of this platoon and am leaving some of my most loyal soldiers in your hands so you can complete this mission.')
+t.sleep(6)
+
+
+print('EVERYONE: READY SIR!')
+t.sleep(5)
+print('2hrs later...')
+t.sleep(5)
+print('Soldier: Sir we have arived in enemy teritory we need to stay quiet before we infiltrate the target.')
+t.sleep(5)
+
+comm=input("SOLDIER: Sir there are soldiers ahead, do we attack general? ")
+t.sleep(3)
+if comm == 'yes':
+  print("You were not ready to attack")
+  lives = lives -1
+  t.sleep(1)
+  print("You have ", lives, " lives remaining!")
+  if lives == 0:
+    print("GAME OVER")
+    t.sleep(2)
+    exit()
+elif comm =='no':
+  print('Congratulations you made the correct choice carry on now to the main enemy base.')
+  t.sleep(3)
+
+while comm=='not'=='no'or'yes':
+  for i in range(1):
+   print('That is not an option, please try again')
+   t.sleep(2)
+   comm=input("SOLDIER: Sir there are soldiers ahead, do we attack general? ")
+   t.sleep(3)
+  if comm == 'yes':
+      print("You were not ready to attack")
+      lives = lives -1
+      t.sleep(1)
+      print("You have ", lives, " lives remaining!")
+      if lives == 0:
+        print("GAME OVER")
+        t.sleep(2)
+        exit()
+      
+  elif comm =='no':
+      
+      print('Congratulations you made the correct choice carry on now to the main enemy base.')
+      t.sleep(3)
+  
+print('Congratulations you made the correct choice carry on now to the main enemy base.')
+t.sleep(3)
+print('SOLDIER: Sir there is a dense fog out here watch out as there could be traps anywhere')
+t.sleep(5)
+print('BOOOOOOOOM!')
+t.sleep(2)
+print('SOLDIER:ARGGGGGGGGGGGGG!')
+t.sleep(3)
+print('One of your companions has passed')
+comm3=input('Press A to mourn your loss. Press B to do else')
+
+if comm3 == 'A':
+  print("The Bomb was heard by all the nearby soldiers. They ambushed you and you have died")
+  t.sleep(5)
+  lives = lives -1
+  print("You have ", lives, " lives remaining!")
+  if lives == 0:
+    print("GAME OVER")
+    t.sleep(2)
+    exit()
+elif comm3 =='No':
+  print('OK! We shall avenge the fallen by completeing this mission.')
+else:
+  
+  for i in range(2000000000):
+    print('That is not an option, please try again')
+    t.sleep(2)
+    comm3=input('Press A to mourn your loss. Press B to do else')
+
+  if comm3 == 'A':
+    print("The Bomb was heard by all the nearby soldiers. They ambushed you and you have died")
+    t.sleep(5)
+    lives = lives -1
+    print("You have ", lives, " lives remaining!")
+    if lives == 0:
+      print("GAME OVER")
+      t.sleep(2)
+      exit()
+  elif comm3 =='No':
+    print('OK! We shall avenge the fallen by completeing this mission.')
+
+t.sleep(3)
+print('SOLDIER: Sir we have made it to the hide out.')
+t.sleep(3)
+print('We need to make it in there sir, Should we rush in.')
+t.sleep(3)
+comm2=input('Press A to rush in. Press B to do else')
+if comm2 == 'A':
+  
+  print("Turrets have popped out of the ground knowing there was going to be an ambush, you did not make it out alive")
+  t.sleep(5)
+  lives = lives -1
+  print("You have ", lives, " lives remaining!")
+  if lives == 0:
+    print("GAME OVER")
+    t.sleep(2)
+    exit()
+elif comm2=='B':
+  print('Nice job! Now you can C4 it and enter the building with a smoke screen.')
+
+else:
+  
+  for i in range(2000000000):
+    print('That is not an option, please try again')
+    t.sleep(2)
+    comm2=input('Press A to rush in. Press B to do else')
+  if comm2 == 'A':
+  
+    print("Turrets have popped out of the ground knowing there was going to be an ambush, you did not make it out alive")
+    t.sleep(5)
+    lives = lives -1
+    print("You have ", lives, " lives remaining!")
+    if lives == 0:
+      print("GAME OVER")
+      t.sleep(2)
+      exit()
+  elif comm2=='B':
+    print('Nice job! Now you can C4 it and enter the building with a smoke screen.')
