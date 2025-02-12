@@ -1,0 +1,35 @@
+
+import time as t
+pounds = float(input("Enter the number of Pounds you want to convert: £"))
+t.sleep(1)
+
+euros = pounds * 1.16
+
+
+print(f"{pounds} GBP is equivalent to {euros:.2f} Euros (€)")#
+t.sleep(1)
+
+
+notes_50 = int(euros // 50)
+euros %= 50
+notes_20 = int(euros // 20)
+euros %= 20
+notes_10 = int(euros // 10)
+euros %= 10
+notes_5 = int(euros // 5)
+euros %= 5
+euro_1 = int(euros // 1)
+euros %= 1
+
+
+print("You would receive:")
+t.sleep(1)
+print(f"{notes_50} 50 Euro notes")
+t.sleep(1)
+print(f"{notes_20} 20 Euro notes")
+t.sleep(1)
+print(f"{notes_10} 10 Euro notes")
+t.sleep(1)
+print(f"{notes_5} 5 Euro notes")
+t.sleep(1)
+print(f"{euro_1} 1 Euros")
