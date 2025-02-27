@@ -1,0 +1,5 @@
+n = int(input())
+f = 1
+l = 13
+for i in range(f,l):
+    print(i*n)
