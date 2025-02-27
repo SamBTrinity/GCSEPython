@@ -1,0 +1,6 @@
+fn = input()
+mn = input()
+ln = input()
+
+whole_name = fn + mn + ln
+print(len(whole_name))
