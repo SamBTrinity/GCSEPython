@@ -1,0 +1,8 @@
+total = 0
+for i in range (0,5):
+    num = int(input('enter a number'))
+    yes_no = input('do you want it included, y/n')
+    if yes_no == 'y':
+        total = total + num
+    print('your total is equal to',total)
+print ('your final total is equal to',total)
