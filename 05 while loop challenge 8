@@ -1,0 +1,14 @@
+bottles = 10
+
+while bottles >0:
+    print(bottles,' green bottles hanging on the wall',
+    bottles, '''green bottles hanging on the wall,
+    And if one green bottle should accidentally fall''')
+    bottles = bottles -1
+    guess = int(input('how many bottles are hanging on the wall?'))
+    while guess != bottles:
+         print('no try again')
+         guess = int
+         (input('how many bottles are hanging on the wall?'))
+         
+print('there will be no green bottles hanging on the wall')
