@@ -1,0 +1,4 @@
+import random
+colors = ["blue", "white", "yellow", "green","red"]
+num = random.choice(colors)
+print(num)
