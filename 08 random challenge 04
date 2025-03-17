@@ -1,0 +1,12 @@
+import random
+num = [1,2,3,4,5]
+luck = random.choice(num)
+guess = int(input("pick a number 1-5"))
+while guess != luck:
+    if guess > luck:
+        print("too high")
+        guess = int(input("try again"))
+    elif guess < luck:
+        print("too low")
+        guess = int(input("try again"))
+print("nice guess well done")
