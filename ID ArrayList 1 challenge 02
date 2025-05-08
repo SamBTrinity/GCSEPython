@@ -1,0 +1,12 @@
+cars = []
+bob = True
+
+while bob == True:
+    jamal = input('input a car brand or press x to exit')
+    if jamal == 'x':
+        bob = False
+    else:
+        cars.append(jamal)
+        print(cars)
+print('in the list there is',cars)
+

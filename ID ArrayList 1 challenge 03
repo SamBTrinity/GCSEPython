@@ -1,0 +1,15 @@
+party = []
+bob = True
+for i in range (3):
+    party.append(input('who do you want to invite'))
+Q = input('do you want to invite anyone else')
+while bob == True:
+    if Q == 'yes':
+        party.append(input('who else?'))
+        Q = input('do you want to invite anyone else')
+    elif Q == 'no':
+        bob = False
+    else:
+        print('yes or no')
+        Q = input('do you want to invite anyone else')
+print('the people that are going to your party are',party)
