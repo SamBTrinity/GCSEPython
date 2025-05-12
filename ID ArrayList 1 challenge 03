@@ -13,3 +13,4 @@ while bob == True:
         print('yes or no')
         Q = input('do you want to invite anyone else')
 print('the people that are going to your party are',party)
+print('is that all')
