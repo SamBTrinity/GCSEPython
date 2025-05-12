@@ -1,1 +1,6 @@
-programme = []
+show1 = 'prison break'
+show2 = 'breaking bad'
+show3 = 'dexter'
+show4 = 'Broklyn nine-nine'
+TV = [show1, show2 ,show3 ,show4]
+print(TV)
