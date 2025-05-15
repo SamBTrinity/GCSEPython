@@ -1,0 +1,13 @@
+
+Stuff = [
+    ["1", "2", "3", "4"],
+    ["a", "b", "c", "d"],
+    ["I", "II", "III", "IV"],
+]
+print("Original 2D Array:")
+for row in Stuff:
+    print(row)
+Stuff[1][2] = "Croydon"
+print("\nUpdated 2D Array:")
+for row in Stuff:
+    print(row)
