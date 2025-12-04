@@ -1,0 +1,17 @@
+def mario_kart_menu():
+    print("1) 1-player")
+    print("2) 2-player")
+    print("3) Online")
+    print("4) Exit")
+    choice = int(input("Choose one of the options: "))
+    
+    if choice == 1:
+        print("1 player selected")
+    elif choice == 2:
+        print("2 player selected")
+    elif choice == 3:
+        print("Online selected")
+    elif choice == 4:
+        print("exiting...")
+
+mario_kart_menu()

@@ -1,0 +1,26 @@
+def minecraft_menu():
+    while True:
+        print("\n--- Minecraft Game Menu ---")
+        print("1) Creative")
+        print("2) Survival")
+        print("3) Hardcore")
+        print("4) Adventure")
+        print("5) Exit")
+        
+        choice = int(input("\nChoose an option (1-5): "))
+        
+        if choice == 1:
+            print("Creative selected")
+        elif choice == 2:
+            print("Survival selected")
+        elif choice == 3:
+            print("Hardcore selected")
+        elif choice == 4:
+            print("Adventure selected")
+        elif choice == 5:
+            print("exiting...")
+            break
+        else:
+            print("invalid choice")
+
+minecraft_menu()

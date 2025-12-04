@@ -1,0 +1,37 @@
+def display_menu():
+    print("1) think big")
+    print("2) think bigger")
+    print("3) winning")
+    print("4) winner")
+    print("5) Exit")
+
+def handle_option(option):
+    options = {
+        1: "think big",
+        2: "think bigger",
+        3: "winning",
+        4: "winner"
+    }
+    if option in options:
+        display_choice(options[option])
+
+def display_choice(option_name):
+    print(f"{option_name} chosen")
+
+def main():
+    while True:
+        display_menu()
+        try:
+            choice = int(input("Enter your choice (1-5): "))
+            
+            if choice == 5:
+                print("bye")
+                break
+            elif 1 <= choice <= 4:
+                handle_option(choice)
+            else:
+                print("invalid choice")
+        except ValueError:
+            print("invalid choice")
+
+main()
