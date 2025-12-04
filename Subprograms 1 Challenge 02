@@ -1,0 +1,8 @@
+def menu():
+    print("Welcome to the Challenge Menu")
+    print("1. Domination")
+    print("2. Team Deathmatch")
+    print("3. Headquaters")
+    choice = input("Please enter your choice (1-3): ")
+    print('choice entered:', choice)
+menu()

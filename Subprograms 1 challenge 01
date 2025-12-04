@@ -1,0 +1,5 @@
+def menu():
+    print('career mode')
+    print('tournament mode')
+    print('online seasons')
+menu()
