@@ -1,0 +1,13 @@
+def new_num():
+    num = int(input("Enter a number: "))
+    return num
+def menu():
+    option = int(input("Choose an option: 0 to exit, 1 to get a timetable: "))
+    if option == 1:
+        print(new_num())
+    elif option == 0:
+        print('Bye!')
+    else:
+        print('Invalid choice')
+        menu()
+menu()
